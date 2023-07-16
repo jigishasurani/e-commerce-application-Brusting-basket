@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context=".AdminAddNewProductActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <ImageView android:layout_height="200dp" android:layout_width="350dp" android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:src="@drawable/select_product_image" android:scaleType="centerCrop" android:cropToPadding="false" android:id="@+id/select_product_image"/>
+
+  <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="20dp" android:id="@+id/product_name" android:background="@drawable/input_design" android:layout_marginRight="45dp" android:layout_marginLeft="45dp" android:hint="Product Name..." android:padding="20dp" android:inputType="textMultiLine" android:layout_below="@+id/select_product_image"/>
+
+  <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="6dp" android:id="@+id/product_description" android:background="@drawable/input_design" android:layout_marginRight="45dp" android:layout_marginLeft="45dp" android:hint="Product Description..." android:padding="20dp" android:inputType="textMultiLine" android:layout_below="@+id/product_name"/>
+
+  <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="6dp" android:id="@+id/product_price" android:background="@drawable/input_design" android:layout_marginRight="45dp" android:layout_marginLeft="45dp" android:hint="Product Price..." android:padding="20dp" android:inputType="textMultiLine" android:layout_below="@+id/product_description"/>
+
+  <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="20dp" android:id="@+id/add_new_product" android:background="@drawable/buttons" android:layout_marginRight="45dp" android:layout_marginLeft="45dp" android:padding="17dp" android:layout_below="@+id/product_price" android:textColor="@android:color/white" android:textAllCaps="false" android:textSize="18sp" android:text="Add Product"/>
+
+</RelativeLayout>

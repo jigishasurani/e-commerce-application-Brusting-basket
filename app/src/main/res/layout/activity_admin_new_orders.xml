@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context=".AdminNewOrdersActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <RelativeLayout android:layout_height="50dp" android:layout_width="match_parent" android:layout_alignParentTop="true" android:background="@color/colorPrimaryDark" android:id="@+id/r2">
+
+  <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="10dp" android:textAlignment="center" android:textSize="25dp" android:textColor="@android:color/white" android:text="New Orders"/>
+
+</RelativeLayout>
+
+  <androidx.recyclerview.widget.RecyclerView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/orders_list" android:layout_below="@+id/r2"/>
+
+</RelativeLayout>

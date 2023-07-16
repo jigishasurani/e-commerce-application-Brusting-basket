@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context=".ConfirmFinalOrderActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textAlignment="center" android:layout_margin="25dp" android:textColor="@color/colorPrimaryDark" android:textSize="18dp" android:text="Please write your Shipment Details" android:id="@+id/txt"/>
+
+  <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/shippment_name" android:hint="Your Name" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:layout_marginTop="60dp" android:layout_below="@+id/txt"/>
+
+  <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/shippment_phone_number" android:hint="Your Phone Number" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:layout_marginTop="60dp" android:layout_below="@+id/shippment_name" android:inputType="number"/>
+
+  <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/shippment_address" android:hint="Your Home Address" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:layout_marginTop="60dp" android:layout_below="@+id/shippment_phone_number"/>
+
+  <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/shippment_city" android:hint="Your City Name" android:layout_marginRight="20dp" android:layout_marginLeft="20dp" android:layout_marginTop="60dp" android:layout_below="@+id/shippment_address"/>
+
+  <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_margin="20dp" android:textColor="@android:color/white" android:textSize="30dp" android:text="Confirm" android:id="@+id/confirm_final_order_btn" android:background="@color/colorPrimaryDark" android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
