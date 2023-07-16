@@ -2,12 +2,9 @@
 
     <RelativeLayout tools:context=".SettinsActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
 
-
   <com.google.android.material.appbar.AppBarLayout android:layout_height="50dp" android:layout_width="match_parent" android:background="@color/colorPrimary" android:id="@+id/app_bar_settings">
 
-
   <androidx.appcompat.widget.Toolbar android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/toolbar_settings">
-
 
   <RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent">
 
