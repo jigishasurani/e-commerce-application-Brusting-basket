@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "701427348397",
+    "project_id": "onlineshopping-ce365",
+    "storage_bucket": "onlineshopping-ce365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701427348397:android:fc383cfe5c3fd2bb9fe724",
+        "android_client_info": {
+          "package_name": "com.example.online_shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701427348397-c9lkg49tam1en6e3kjm1rr2s95fjciqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG3dFg9hO4nAWJGCPoLhvjOIMM1XWZl3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701427348397-c9lkg49tam1en6e3kjm1rr2s95fjciqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
